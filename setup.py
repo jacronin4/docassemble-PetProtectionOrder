@@ -45,7 +45,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 
 setup(name='docassemble.PetProtectionOrder',
       version='1.0',
-      description=('Petition209as11relativetodomesticatedanimalssecond 2 2'),
+      description=('Petition Filed Relative to Domestic Animals'),
       long_description='# docassemble.PetProtectionOrder\r\n\r\nPetitionRelativeToDomesticAnimals\r\n\r\n## Author\r\n\r\nJames Cronin\r\n\r\n',
       long_description_content_type='text/markdown',
       author='James Cronin',
