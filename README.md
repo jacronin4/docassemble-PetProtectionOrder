@@ -29,11 +29,11 @@ I took the user feedback from both interviews and included it in my final versio
 
 ## Complexity 
 
-Involves non-trivial use of at least two of the following: an expert system; document automation; data scraping from a data source not in the student's control; a machine learning algorithm trained by the student. 
+This project is through the document assembly line project. I used the pdf version of the pet protection order, filled in the fields and then constructed an interview through the weaver and the playground. The purpose of this project is to use of the expert system of the assembly line and docassemble to create an interview to automate the pet protection order form. This is an important project because the form, even to someone like me who does not have a lot of legal experience but understands legal terminology and processes, is very confusing to follow especially with what types of claims can be made and what the requirements are for the underlying anchoring case.  
 
 ## Impact and Efficiencies 
 
-Expands the reach of a single practitioner by more than 100 or decreases the amount of time expended on the automated task by more than 50%. Expanded reach must account for all work flowing from the solution such that this work will not result in new work for a practitioner. That is, it assumes the practitioner is already working at full capacity. So increased lead generation doesn't count. More efficient selection of high-value clients, however, can count when this is reasonably projected to lead to a more than 5% increase in revenue. 
+Using this automation process, a practitioner could become much more productive and efficient. The time which can be saved from not having to help a client work through a paper form is astronomical. I would argue that a practitioner working at full capacity, would not necessarily have less work because I think this could expand their capabilities to have more clients, but their work would be more productive. Further, the client could also go through this interview without the help from their lawyer. The lawyer could simply send the interview to their client to complete, and review the form when they send it back to them. To add on that note, and I think the most important impact of this interview, is that an individual completeing this form by themselves would not need the assistance of a lawyer to complete the form. This could be that they cannot afford a lawyer, or do not have ready access to their lawyer. The individual could fill this form out without the help of a lawyer, saving them money and time. 
 
 ## Fitness and Completeness 
 
