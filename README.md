@@ -20,6 +20,7 @@ Consider the costs & benefits of the technical solutions or design configuration
 
 ## User Testing 
 
+While writing this biography I wished I had done more user testing. I sent a google form to eight people, two law students, two lawyers, two individuals not lawyers or law students, and two other people who did not want to identify their category. An example of taking user feedback is that one of the individuals who did not want to identify, asked me to change the google form for them, which I did. It turned out that another person I used for testing also did not want to identify. This is an example of how user testing can benefit the creator when they do not think of something and a respondent to the testing provides an important perspective which benefits other users as well. I randomly assigned each individual to either complete the docassemble interview or to try and fill out the pdf form in chrome or Adobe if they had those capabilities. I used a random number generator with the paramaters of 1-2, 1 being the docassemble interview, 2 being the pdf form.  
 Makes use of at least one tester other than themselves for each type of user in close to real-world conditions. Captures user feedback in a uniform comparable manner. Student provides copy of user feedback. 
 
 OR 
