@@ -1,4 +1,4 @@
-# FINAL PROJECT BIOGRAPHY
+# FINAL PROJECT BIOGRAPHY - Pet Protection Order
 
 ## Author
 
@@ -20,20 +20,12 @@ Consider the costs & benefits of the technical solutions or design configuration
 
 ## User Testing 
 
-While writing this biography I wished I had done more user testing. I sent a google form to eight people, two law students, two lawyers, two individuals not lawyers or law students, and two other people who did not want to identify their category. An example of taking user feedback is that one of the individuals who did not want to identify, asked me to change the google form for them, which I did. It turned out that another person I used for testing also did not want to identify. This is an example of how user testing can benefit the creator when they do not think of something and a respondent to the testing provides an important perspective which benefits other users as well. I randomly assigned each individual to either complete the docassemble interview or to try and fill out the pdf form in chrome or Adobe if they had those capabilities. I used a random number generator with the paramaters of 1-2, 1 being the docassemble interview, 2 being the pdf form.  
-Makes use of at least one tester other than themselves for each type of user in close to real-world conditions. Captures user feedback in a uniform comparable manner. Student provides copy of user feedback. 
+While writing this biography I wished I had done more user testing. I sent a google form to three people, a lawyer, a law student, and two non-lawyer or law student. I randomly assigned each individual to either complete certain version of the docassemble interview. I used the codingthelaw.org random picker to assign each person to complete a certain docassemble interview. The first version, as I mentioned above had all of the information regarding the process of the form, and which claims could be made at the beginning of the interview. The second version had the information at the start of the interview and throughout the interview as well. I used this testing to not only decide where the clarifying information should be included, but also to receive feedback on the flow of the interiew and the wording of the questions. One reason why I wish I did more testing was that the lawyer was assigned to the interview which had the information only at the start of the interview, and i felt that a lawyer who is familair with the language and the laws surrounding the pet protection order would be content with having all of the information at the start of the interview because they are familar with the the order. Thankfully, one of the non-lawyers/ law students used this interview as well and provided that that they were confused when they got into the meat of the interview because they did not have the nformation from the start readily available. 
 
-OR 
-
-Fails to make use of a tester other than themselves; or fails to replicate close to real-world conditions; or fails to capture user feedback in a uniform manner. 
 
 ## Refinement 
 
-User feedback is seriously considered and used to inform the final version of the solution (where the solution includes both the technical product and any documentation). The final version is not the same as the original versio (i.e., there are at least two versions). 
-
-OR 
-
-Fails to seriously consider user feedback in final version of solution or fails to create multiple iterations of the solution. 
+I took the user feedback from both interviews and included it in my final version. From the feedback it became clear that having the informational screens throughout the interview would be helpful to the most users. Also, every response felt I should have explained what type of case anchors the interview, because in both I just had a link to the law where the user could read it. However, it would be much more beneficial to have a brief explanation of this instead of making the user do it themselves. Further, the users which used the interview with the informational screens throughout the interview appreciated the information, but also wished it was a more conformed order. The placement of these interview screens did not contribute to the flow of the interview. As a solution I decided to, as I explained briefly before, to separate the interview into three sections; the preliminary information, the information directly pertaining to the animals, and the court hearing information for the pet protection order. This seemed to me as a good solution to not only keep the valuable information but to also contribute to the flow of the interview. 
 
 ## Complexity 
 
