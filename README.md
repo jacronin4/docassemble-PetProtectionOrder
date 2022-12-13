@@ -37,23 +37,12 @@ Using this automation process, a practitioner could become much more productive 
 
 ## Fitness and Completeness 
 
-Produces viable output. UI is intuitive / well-documented. Directly addresses the stated problem for the stated user types such that it is reasonable to assume almost all users of any user type would find the solution a great improvement over the status quo in nearly all conceivable use cases. 
-
-OR 
-
-Produces viable output. UI is intuitive / well-documented. In broad terms, the solution address the stated problem for the stated user types such that it is reasonable to assume most users of any user type would find the solution an improvement over the status quo excpet for a small set of edge cases. 
+I would argue very strongly that creating an automated interview to complete this pet protection order form is much better than the status quo. Currently, individuals, whether lawyer's or non-lawyer's, must fill at the form in an pdf application such as adobe, or by hand. Even with this technology, the user cannot fill out the form completely online, and must print the form in order to sign it. Personally, I do not have a printer and I imagine that many people have their lawyer do this for them, because they have access to a printer. Further, being able to complete this form without or with minimial assistance from a lawyer, or someone who understands the form, not only benefits the user, but also the attorney's. I consider this interview a great improvement from what is the current process. Something I cannot control is the online filing of this form, which unfortunately will have to develop later on.
+ 
 ## Real World Viability 
 
-Ready for real-world use as is. This includes working technical solution and all supporting documentation. It need not include placement on a server or user authentication 
-
-OR 
-
-Identifies what steps are needed before real-world use, and such steps are estimated by the instructors to be less than two day's work, exluding placement on a server or user authentication. 
+I believe this interview is ready for real world use. Especially considering the development process and the user feedback. Using this feedback I think I have created something that is ready to be used. Even if in the future, I or someone else considers there is a better way to word a question or present informational screens, the process of modifying the interview is simple, and I beleive minimal changes will need to be made. You already, have the code, but you can test the interview for yourself here: https://apps-dev.suffolklitlab.org/start/playground316/Pet_Protection_Order_8/?from_list=1. 
 
 ## Sustainability 
 
-There is a clear plan for continued operation, updates, and maintenance, and the aprtner seems ready and willing to implement it. 
-
-OR 
-
-There is a clear plan for continued operation, updates, and maintenance. 
+Being an assembly line project, and considering the readiness of the interview operating, updating, and maintaining the interview is relatively simple. The code which controls the interview is good, but I am not going to say it is perfect, because nothing is perfect. Whether it be me or someone else involved with the assembly line, I think eventually there will come a better version of a question or an informational screen. One scenario which this interview is not prepared for is if the form used or process used for the pet protection order is changed. A new interview would have to be created using the new form. Considering this however, this interview and the code can be used as a baseline for this future interview. But, that is for the future. 
