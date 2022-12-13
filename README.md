@@ -20,18 +20,47 @@ Consider the costs & benefits of the technical solutions or design configuration
 
 ## User Testing 
 
-None of it, lol 
+Makes use of at least one tester other than themselves for each type of user in close to real-world conditions. Captures user feedback in a uniform comparable manner. Student provides copy of user feedback. 
+
+OR 
+
+Fails to make use of a tester other than themselves; or fails to replicate close to real-world conditions; or fails to capture user feedback in a uniform manner. 
 
 ## Refinement 
 
-user feedback into the final version of the product. 
+User feedback is seriously considered and used to inform the final version of the solution (where the solution includes both the technical product and any documentation). The final version is not the same as the original versio (i.e., there are at least two versions). 
+
+OR 
+
+Fails to seriously consider user feedback in final version of solution or fails to create multiple iterations of the solution. 
 
 ## Complexity 
 
+Involves non-trivial use of at least two of the following: an expert system; document automation; data scraping from a data source not in the student's control; a machine learning algorithm trained by the student. 
+
 ## Impact and Efficiencies 
+
+Expands the reach of a single practitioner by more than 100 or decreases the amount of time expended on the automated task by more than 50%. Expanded reach must account for all work flowing from the solution such that this work will not result in new work for a practitioner. That is, it assumes the practitioner is already working at full capacity. So increased lead generation doesn't count. More efficient selection of high-value clients, however, can count when this is reasonably projected to lead to a more than 5% increase in revenue. 
 
 ## Fitness and Completeness 
 
+Produces viable output. UI is intuitive / well-documented. Directly addresses the stated problem for the stated user types such that it is reasonable to assume almost all users of any user type would find the solution a great improvement over the status quo in nearly all conceivable use cases. 
+
+OR 
+
+Produces viable output. UI is intuitive / well-documented. In broad terms, the solution address the stated problem for the stated user types such that it is reasonable to assume most users of any user type would find the solution an improvement over the status quo excpet for a small set of edge cases. 
 ## Real World Viability 
 
+Ready for real-world use as is. This includes working technical solution and all supporting documentation. It need not include placement on a server or user authentication 
+
+OR 
+
+Identifies what steps are needed before real-world use, and such steps are estimated by the instructors to be less than two day's work, exluding placement on a server or user authentication. 
+
 ## Sustainability 
+
+There is a clear plan for continued operation, updates, and maintenance, and the aprtner seems ready and willing to implement it. 
+
+OR 
+
+There is a clear plan for continued operation, updates, and maintenance. 
