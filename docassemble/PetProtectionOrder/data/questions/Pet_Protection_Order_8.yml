@@ -75,6 +75,7 @@ code: |
   nav.set_section("review_Pet_Protection_Order")
   # Below sets the user_role and user_ask_role by asking a question.
   # You can set user_ask_role directly instead to either 'plaintiff' or 'defendant'
+  question_intro
   user_ask_role
   probate_family_court
   trial_court.division
@@ -85,6 +86,7 @@ code: |
   users.gather()
   set_parts(subtitle=str(users))
   set_progress(28)
+  preliminary_intro
   issued_judgment_order
   petition_fields_introduction
   animals1_description
@@ -131,12 +133,23 @@ comment: |
 id: Petition relative to domestic animals introduction 
 continue button field: Pet_Protection_Order_intro 
 question: |
+  Use this interview to file a Pet Protection Order. This form is to be used in conjuction with an active case or issued judgment. Use this form if you are filing in the following courts: 
+subquestion: | 
+  * Boston Municipal Court
+  * Juvenile Court
+  * District Court 
+  * Superior Court
+  * Probate & Family Court
+---
+id: Petition relative to domestic animals intro
+continue button field: question_intro
+question: |
   To file a Pet Protection Order, the underlying active case or issued judgment must meet certain requirements. The following questions will ask you to give information regarding your active case, or issued judgment, providing the following information.  
 subquestion: |
     * The Trial Court Department and Division of the case 
     * The docket number of the case 
     * The name of the plaintiff or defendant in the case. Remember you can be either the plaintiff or     defendant in this case to file this petition relative to domestic animals. The other party in this case must be the intended recipient of this pet protection order. 
-    * Confirm that the case meets the requirements to file this petition. The requirements can be viewed here: https://malegislature.gov/Laws/GeneralLaws/PartII/TitleIII/Chapter209a/Section11
+    * Confirm that the case meets the requirements to file this petition. 
 ---
 id: Trial Court Deparment
 question: |
@@ -153,11 +166,22 @@ fields:
   - "Superior Court": superior_court
     datatype: yesno
 ---
+id: Issued judgment 
+continue button field: preliminary_intro
+question: |
+  UNDERLYING CASE REQUIREMENTS FOR FILING THIS PET PROTECTION ORDER.
+subquestion: | 
+  * Court has issued a temporary or permanent vacate, stay away, restraining, or no contact order.
+  * Court has issued a temporary restraining order or preliminary or premanent injunction relative to a domestic relations, child custody, domestic abuse or abuse prevention proceeding. 
+  * Court has issued a judgment under Chapter 208 Sect. 18, 34B or 34C.
+  * Court has issued a judgment under Chapter 209 Sect. 32, or Chapter 209A Sect. 3, 4, or 5.
+  * Court has issued a judgment under Chapter 209C Sect. 15 or 20, or under Chapter 258E Sect. 3-7. 
+---
 id: Preliminary information
 question: |
   Please confirm that your case meets the requirements to file this pet protection order. 
 subquestion: |
-  The requirements can be viewed here: https://malegislature.gov/Laws/GeneralLaws/PartII/TitleIII/Chapter209a/Section11
+  You can review the requirements here: https://malegislature.gov/Laws/GeneralLaws/PartII/TitleIII/Chapter209a/Section11
 fields:
   - "I confirm my active case or issued judgment meets the requirements to file this Pet Protection Order": issued_judgment_order
     datatype: yesno
@@ -184,7 +208,7 @@ fields:
 ---
 id: What are you asking the court
 question: |
-  What are you asking the court? The actions you request the court to order the other party taking part in include the following. 
+  What are you asking the court? You can request possession and/or a court order, subjecting the other party to refrain from taking certain action. The actions you request the court to order the other party to refrain taking part in include the following:
 subquestion: |
   * abusing, threatening, taking, interfering with, encumbering, concealing, harming or otherwise disposing the animal(s) 
 fields:
